@@ -10,6 +10,6 @@ The following libraries have been used in this project:
 
 2. string
 
-(The libraries my be installed using ```pip3 install <lib_name>```
+(The libraries my be installed using ```pip3 install <lib_name>```)
 
 This program was tested on Ubuntu 20.04 for efficiency & it ran without any lag or any specific issues.
