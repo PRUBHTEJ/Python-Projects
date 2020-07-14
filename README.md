@@ -4,12 +4,12 @@ This Repository contains all the Python & Machine Learning projects that I have 
 
 Following is a list of the projects:
 
-1. **[Library Management]**(https://github.com/PRUBHTEJ/Py-ML-Projects/tree/master/Lib-Mgmt)
+1. **[Library Management](https://github.com/PRUBHTEJ/Py-ML-Projects/tree/master/Lib-Mgmt)**
 
-2. **[Face Recognition]**(https://github.com/PRUBHTEJ/Py-ML-Projects/tree/master/Face-Recog)
+2. **[Face Recognition](https://github.com/PRUBHTEJ/Py-ML-Projects/tree/master/Face-Recog)**
 
-3. **[Screenshot Application]**(https://github.com/PRUBHTEJ/Py-ML-Projects/tree/master/Screenshot-App)
+3. **[Screenshot Application](https://github.com/PRUBHTEJ/Py-ML-Projects/tree/master/Screenshot-App)**
 
-4. **[Random Password Generator]**(https://github.com/PRUBHTEJ/Py-ML-Projects/tree/master/Random-Password-Generator
+4. **[Random Password Generator](https://github.com/PRUBHTEJ/Py-ML-Projects/tree/master/Random-Password-Generator)**
 
 A common requirements.txt file has also been included in this repository.
