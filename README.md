@@ -12,4 +12,6 @@ Following is a list of the projects:
 
 4. **[Random Password Generator](https://github.com/PRUBHTEJ/Py-ML-Projects/tree/master/Random-Password-Generator)**
 
+5. **[Movie Recommendation System](https://github.com/PRUBHTEJ/Py-ML-Projects/tree/master/Movie-Recommendation-System)**
+
 A common requirements.txt file has also been included in this repository.
