@@ -1,0 +1,19 @@
+### In this file, I have fetched the data from [this](https://en.wikipedia.org/wiki/Android_version_history) website using bs4 library.
+
+from urllib.request import urlopen
+
+android_url = 'https://en.wikipedia.org/wiki/Android_version_history'
+
+android_data = urlopen(android_url)
+
+print(type(android_data))
+
+android_html = android_data.read()
+
+print(android_html)
+
+# Contains the entire HTML of the Wikipedia
+
+android_data.close()
+
+## By using this we've closed our connection with the website
