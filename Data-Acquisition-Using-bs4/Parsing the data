@@ -1,0 +1,23 @@
+# Here we've imported BeautifulSoup from the bs4 library
+
+from bs4 import BeautifulSoup as bs4
+
+android_soup = soup(android_html, 'html.parser')
+# Here we've parsed the website as a HTML fileby staing "html.parser". We could've parsed the file in various different modes such as JSON, CSV, etc..
+
+print(android_soup)
+
+android_soup.h1 
+# Gives the first heading of the file
+
+android_soup.findAll('h1', {}) 
+# Gives all the "h1" headings of the website from which we're fetching the data.
+
+tables = android_soup.findAll('table',{'class':'wikitable'})
+# Here we're trying to fetch the data for those tables who's classes belong to the type - wikitable
+
+android_tables = tables[0]
+# Here as per the users requirement we're trying to store the first of the many tables having type = wikitable in android_tables object.
+
+print(android_tables)
+# Displaying the android_tables.
