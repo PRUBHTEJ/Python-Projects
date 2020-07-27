@@ -13,3 +13,5 @@ The following steps are required for data acquisition from a particular website:
 5. [Cleaning data]()
 
 6. [Scraping local files]()
+
+This [code.ipynb]() contains the whole code whereas the files mentioned above contains the same code in six parts, but with details explaied to a great extent in the form of comments
