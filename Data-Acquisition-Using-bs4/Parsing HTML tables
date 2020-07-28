@@ -1,0 +1,37 @@
+#Parsing HTML tables. Steps are as follows:
+#1. Removing the undesired tags
+#2. Extract table header and relevant data
+headers = android_tables.findAll('th')
+print(len(headers))
+# We roughly have 6 columns
+headers[0].text # Here we get what's contained in that row
+column_titles = [ ct.text[:-1] for ct in headers] # Prints the column names in textual format. & ct stands for column titiles
+print(column_titles)
+# We've removed the the '\n' by using the the method of slicing [:-1]
+#By using this we've got the column titles
+## How to get the data in all rows
+row_data =  android_tables.findAll('tr')[1:]# also we can do slicing by [1:], if we get any unwanted data
+print(row_data)
+# So basically 'tr' is the tag for table rows.
+first_row = row_data[0].findAll('td',{})
+print(first_row)
+for d in first_row:
+  print(d.text) # Prints all the text present in that particular tag.
+  # Also we have a "\n".
+  # We can do this for all the rows
+table_row = []
+for row in row_data:
+  current_row = []
+  row_data = row.findAll('td',{})
+  for idx,data in enumerate(row_data):
+    if idx!=0 and idx!=3:
+      current_row.append(data.text[:-1])
+    else:
+      current_row.append(data.text)
+
+  table_row.append(current_row)   
+  
+print(table_row)  
+  
+  
+
