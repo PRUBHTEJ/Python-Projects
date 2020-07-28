@@ -14,4 +14,6 @@ Following is a list of the projects:
 
 5. **[Movie Recommendation System](https://github.com/PRUBHTEJ/Py-ML-Projects/tree/master/Movie-Recommendation-System)**
 
+6. **[Data Acquisition using bs4 library]()**
+
 A common requirements.txt file has also been included in this repository.
