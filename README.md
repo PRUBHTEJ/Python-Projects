@@ -1,4 +1,4 @@
-# Py-ML-Projects
+# Python Projects
 
 This Repository contains all the Python & Machine Learning projects that I have executed till now.
 
