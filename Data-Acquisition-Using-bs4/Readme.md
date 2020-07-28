@@ -6,7 +6,7 @@ The following steps are required for data acquisition from a particular website:
 
 2. [Parsing data from a Website](https://github.com/PRUBHTEJ/Py-ML-Projects/blob/master/Data-Acquisition-Using-bs4/Parsing%20the%20data)
 
-3. [Parsing HTML tables]()
+3. [Parsing HTML tables](https://github.com/PRUBHTEJ/Py-ML-Projects/blob/master/Data-Acquisition-Using-bs4/Parsing%20HTML%20tables)
 
 4. [Creating CSV]()
 
