@@ -1,6 +1,6 @@
 # Python Projects
 
-This Repository contains all the Python & Machine Learning projects that I have executed till now.
+This Repository contains all the basic Python & Machine Learning projects that I have executed till now.
 
 Following is a list of the projects:
 
