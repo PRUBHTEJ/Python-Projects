@@ -16,4 +16,4 @@ Following is a list of the projects:
 
 6. **[Data Acquisition using bs4 library]()**
 
-A common requirements.txt file has also been included in this repository.
+A common requirements.txt file has been included in this repository.
