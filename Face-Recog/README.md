@@ -1,6 +1,9 @@
 # Face Recognition using harcascade classifier
 
-This is one of the basic projects that I have implememted while learning Python from coding blocks. 
+## Introduction to harcascade classifier
 
-In this project, I have used the pre-trained harcascade classifier for face recognition, Python 3.7 & the OpenCv (CV2) library for the implementation. For those who want 
-to download OpenCV can download it via `pip install cv2`.
+* Object Detection using Haar feature-based cascade classifiers is an effective object detection method proposed by Paul Viola and Michael Jones in their paper, "Rapid Object Detection using a Boosted Cascade of Simple Features" in 2001. It is a machine learning based approach where a cascade function is trained from a lot of positive and negative images. It is then used to detect objects in other images.
+
+*
+
+
